@@ -2,7 +2,7 @@
 title: MY Blog
 SEOTitle: lalala的博客 | Zihao's Blog
 header-img: img/post-bg-desk.jpg
-email: **@gmail.com
+#email: **@gmail.com
 description: "Every failure is leading towards success."
 keyword: "Perception"
 url: "http://capriciousZihao.github.io"          # your host, for absolute URL
