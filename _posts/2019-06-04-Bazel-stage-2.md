@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      Bazel stage 1 				# 标题 
+title:      Bazel stage 2 				# 标题 
 #subtitle:   Hello World, Hello Blog #副标题
 date:       2019-06-04 				# 时间
 author:     Zihao 						# 作者
