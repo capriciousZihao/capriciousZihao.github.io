@@ -11,9 +11,6 @@ tags:								#标签
 ---
 
 ## bazel build cpp example stage1
->学习用bazel编译cpp文件。
-
-
     编译vid2depth的时候，原程序提供的bazel编译icp_op， 当时觉得bazel麻烦，之前没有任何bazel的经验，就试图用camke来生成.so文件，
 但是最终载入库的时候出了问题，可能是还要生成别的文件，但是用g++我只生成了一个icp_op.so文件。
     为了弄清问题在哪里，便从头学习bazel，首先看bazel编译cpp文件的历程，第一个例程是在stage1文件夹下，`bazel build //main:hello-world`
