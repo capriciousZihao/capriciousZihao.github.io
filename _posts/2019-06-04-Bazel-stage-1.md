@@ -8,7 +8,7 @@ header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - basel编译
----
+
 
 ### bazel build cpp example stage1
     编译vid2depth的时候，原程序提供的bazel编译icp_op， 当时觉得bazel麻烦，之前没有任何bazel的经验，就试图用camke来生成.so文件，
