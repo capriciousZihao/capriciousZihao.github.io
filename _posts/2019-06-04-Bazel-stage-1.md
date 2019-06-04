@@ -8,12 +8,13 @@ header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - basel编译
-
+---
 
 ### bazel build cpp example stage1
-    编译vid2depth的时候，原程序提供的bazel编译icp_op， 当时觉得bazel麻烦，之前没有任何bazel的经验，就试图用camke来生成.so文件，
+编译vid2depth的时候，原程序提供的bazel编译icp_op， 当时觉得bazel麻烦，之前没有任何bazel的经验，就试图用camke来生成.so文件，
 但是最终载入库的时候出了问题，可能是还要生成别的文件，但是用g++我只生成了一个icp_op.so文件。
-    为了弄清问题在哪里，便从头学习bazel，首先看bazel编译cpp文件的历程，第一个例程是在stage1文件夹下，`bazel build //main:hello-world`
+
+为了弄清问题在哪里，便从头学习bazel，首先看bazel编译cpp文件的历程，第一个例程是在stage1文件夹下，`bazel build //main:hello-world`
     
     然后报错
     `ERROR: /home/spadmin/research/examples/cpp-tutorial/stage1/main/BUILD:1:1: C++ compilation of rule '//main:hello-world' failed (Exit 1) gcc failed: error executing command /usr/lib/ccache/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer '-std=c++0x' -MD -MF ... (remaining 20 argument(s) skipped)
