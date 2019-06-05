@@ -23,3 +23,5 @@ cc_library(
 ```
 ### 无sudo权限安装bazel
 参照[bazel教程](https://docs.bazel.build/versions/master/install-ubuntu.html "悬停显示")来局部安装bazel，谢谢Andrei的提醒，不然还在困惑怎么在没有sudo权限的时候安装bazel。
+
+具体参见其中的Installing using binary installer条目
